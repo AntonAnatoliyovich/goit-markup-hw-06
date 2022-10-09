@@ -61,6 +61,14 @@
   justify-content: center;
 }
 
+.form {
+  min-width: 448px;
+  outline: 1px solid tomato;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 20px;
+}
+
 .backdrop-form-title {
 font-family: 'Roboto';
 font-style: normal;
@@ -79,21 +87,26 @@ color: #212121;
 }
 
 .backdrop-form-field {
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-bottom: 20px;
 }
 
 .backdrop-form-name {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
 }
 
 .backdrop-form-icon {
 }
 
 .backdrop-form-tel {
+  display: flex;
+  flex-direction: column;
 }
 
 .backdrop-form-email {
+  display: flex;
+  flex-direction: column;
 }
 
 .backdrop-form-checkbox {
