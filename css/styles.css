@@ -788,6 +788,10 @@ address {
   margin-left: 93px;
 }
 
+.form-div1 {
+  display: flex;
+}
+
 .form-lable {
   font-family: 'Roboto';
   font-style: normal;
@@ -832,6 +836,10 @@ address {
 
   min-width: 200px;
   min-height: 50px;
+  padding: 10px 28px;
+  gap: 10px;
+
+  margin-left: 12px;
   
   display: flex;
   align-items: center;
