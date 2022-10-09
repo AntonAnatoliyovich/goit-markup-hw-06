@@ -793,10 +793,11 @@ address {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  
-  color: #FFFFFF;
+
   margin-left: 93px;
   margin-bottom: 20px;
+  
+  color: #FFFFFF;
 }
 
 .form-div {
@@ -811,7 +812,7 @@ address {
 .form-lable {
   }
   
-  .form-input {
+.form-input {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -822,30 +823,30 @@ address {
   align-items: center;
   letter-spacing: 0.03em;
   
-  color: rgba(255, 255, 255, 0.6);
-  background-color: #2f303a;
-  
   box-sizing: border-box;
+  border-radius: 4px;
   
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
+    
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #2f303a;
   }
   
-  .form-button {
+.form-button {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  border-radius: 4px;
   border: none;
 
+  border-radius: 4px;
   min-width: 200px;
   min-height: 50px;
+
   padding: 10px 28px;
   gap: 10px;
-
   margin-left: 12px;
   
   display: flex;
@@ -859,8 +860,6 @@ address {
   fill: #FFFFFF;
   }
 
-  
-  
 
 /* -------PORTFOLIO.HTML------- */
 
