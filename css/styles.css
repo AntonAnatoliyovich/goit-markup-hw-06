@@ -61,6 +61,75 @@
   justify-content: center;
 }
 
+.backdrop-form-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.03em;
+
+padding-top: 40px;
+padding-right: 40px;
+padding-left: 40px;
+margin-bottom: 12px;
+
+color: #212121;
+}
+
+.backdrop-form-field {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 20px;
+}
+
+.backdrop-form-name {
+}
+
+.backdrop-form-icon {
+}
+
+.backdrop-form-tel {
+}
+
+.backdrop-form-email {
+}
+
+.backdrop-form-checkbox {
+}
+
+.backdrop-form-button {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  
+  color: #FFFFFF;
+
+  min-width: 200px;
+  min-height: 50px;
+
+  margin-top: 30px;
+  margin-left: 164px;
+  margin-right: 164px;
+  margin-bottom: 40px;
+
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: #2196F3;
+  padding: 10px 52px;
+  cursor: pointer;
+}
+
+
 /* -------body------- */
 
 body {
