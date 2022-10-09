@@ -784,15 +784,8 @@ address {
 
 /* -------Form (footer)------- */
 
-.form-div {
-  margin-left: 93px;
-}
 
-.form-div1 {
-  display: flex;
-}
-
-.form-lable {
+.form-title {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -802,6 +795,20 @@ address {
   text-transform: uppercase;
   
   color: #FFFFFF;
+  margin-left: 93px;
+  margin-bottom: 20px;
+}
+
+.form-div {
+  margin-left: 93px;
+  align-items: baseline;
+}
+
+.form-div1 {
+  display: flex;
+}
+
+.form-lable {
   }
   
   .form-input {
