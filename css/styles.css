@@ -58,8 +58,8 @@
 
 .backdrop-button:hover,
 .backdrop-button:focus {
-fill: var(--accent-color);
-transition: var(--transition);
+  fill: var(--accent-color);
+  transition: var(--transition);
 }
 
 .backdrop-icon-close {
@@ -152,7 +152,7 @@ transition: var(--transition);
   display: flex;
   flex-direction: column;
 
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
