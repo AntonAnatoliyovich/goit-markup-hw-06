@@ -91,6 +91,11 @@ color: #212121;
   flex-direction: column;
 }
 
+.backdrop-form-div {
+  position: relative;
+
+}
+
 .input {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -98,6 +103,11 @@ color: #212121;
 }
 
 .backdrop-form-icon {
+  position: absolute;
+  left: 0;
+  top: 25%;
+  margin-left: 10px;
+
 }
 
 .backdrop-form-tel {
