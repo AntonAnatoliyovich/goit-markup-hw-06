@@ -126,7 +126,8 @@ transition: var(--transition);
 .backdrop-form-icon {
   position: absolute;
   left: 0;
-  top: 25%;
+  top: 0;
+  transform: translateY(50%);
   margin-left: 10px;
   color: var(--main-color);
 }
