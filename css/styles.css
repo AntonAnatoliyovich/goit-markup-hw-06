@@ -86,6 +86,10 @@ color: #212121;
 .backdrop-form-field {
 }
 
+.backdrop-form-label {
+  color: var(--second-color);
+}
+
 .backdrop-form-name {
   display: flex;
   flex-direction: column;
@@ -97,6 +101,7 @@ color: #212121;
 }
 
 .input {
+  width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding: 10px;
@@ -107,7 +112,7 @@ color: #212121;
   left: 0;
   top: 25%;
   margin-left: 10px;
-
+  color: var(--main-color);
 }
 
 .backdrop-form-tel {
@@ -138,6 +143,9 @@ color: #212121;
   display: flex;
   gap: 8.38px;
   margin-top: 20px;
+}
+
+.backdrop-form-checkbox-input {
 }
 
 .backdrop-form-button {
