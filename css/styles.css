@@ -56,6 +56,12 @@
   cursor: pointer;
 }
 
+.backdrop-button:hover,
+.backdrop-button:focus {
+fill: var(--accent-color);
+transition: var(--transition);
+}
+
 .backdrop-icon-close {
   display: flex;
   align-items: center;
