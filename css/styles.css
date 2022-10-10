@@ -87,7 +87,7 @@ transition: var(--transition);
 
   margin-bottom: 12px;
 
-  color: #212121;
+  color: var(--main-color);
 }
 
 .backdrop-form-field {
