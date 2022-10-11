@@ -120,8 +120,8 @@
   transition: var(--transition);
 }
 
-.backdrop-form-div:hover > input,
-.backdrop-form-div:focus > input {
+.backdrop-form-div:hover > .form-input,
+.backdrop-form-div:focus > .form-input {
   border-color: var(--accent-color);
 }
 
