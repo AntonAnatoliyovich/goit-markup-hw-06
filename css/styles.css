@@ -124,7 +124,7 @@
   border-color: #2196f3;
 }
 
-.input {
+.form-input {
   width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -133,8 +133,10 @@
   transition: var(--transition);
 }
 
-.input:hover + .backdrop-form-icon,
-.input:focus + .backdrop-form-icon {
+
+
+.form-input:hover + .backdrop-form-icon,
+.form-input:focus + .backdrop-form-icon {
 fill: #2196f3;
 }
 
@@ -979,7 +981,7 @@ address {
 .form-lable {
 }
 
-.form-input {
+.footer-form-input {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
