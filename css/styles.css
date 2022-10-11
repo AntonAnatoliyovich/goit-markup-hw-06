@@ -187,7 +187,8 @@ fill: var(--accent-color);
   transition: var(--transition);
 }
 
-.textarea:hover {
+.textarea:hover,
+.textarea:focus {
   border: 1px solid var(--accent-color);
 }
 
