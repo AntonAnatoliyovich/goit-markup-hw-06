@@ -95,6 +95,12 @@
 .backdrop-form-field {
 }
 
+.backdrop-form-name {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
 .backdrop-form-label {
   color: var(--second-color);
   margin-bottom: 4px;
@@ -106,12 +112,6 @@
   line-height: 1.71;
 
   letter-spacing: 0.03em;
-}
-
-.backdrop-form-name {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 10px;
 }
 
 .backdrop-form-div {
