@@ -133,8 +133,6 @@
   transition: var(--transition);
 }
 
-
-
 .form-input:hover + .backdrop-form-icon,
 .form-input:focus + .backdrop-form-icon {
 fill: #2196f3;
