@@ -204,6 +204,18 @@ fill: var(--accent-color);
 .backdrop-form-checkbox-input {
 }
 
+.form-icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 2px solid var(--main-color);
+}
+
+.backdrop-form-checkbox-input:checked + .form-icon {
+  background-color: #2196f3;
+  background-image: url(../image/icon\ check.svg);
+}
+
 .backdrop-form-checkbox-link {
   color: var(--accent-color);
   text-decoration: underline;
