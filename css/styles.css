@@ -115,6 +115,16 @@
   fill: var(--accent-color)
 }
 
+.backdrop-form-label:focus-within > .backdrop-form-input {
+  border-color: var(--accent-color);
+  outline: none;
+}
+
+.backdrop-form-label:focus-within > .backdrop-form-textarea {
+  border-color: var(--accent-color);
+  outline: none;
+}
+
 .backdrop-form-input {
   box-sizing: border-box;
   border: 1px solid rgba(33, 33, 33, 0.2);
