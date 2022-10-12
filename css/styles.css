@@ -116,6 +116,21 @@
 }
 
 .backdrop-form-button {
+  min-width: 200px;
+  min-height: 50px;
+  border-radius: 4px;
+
+  background-color: #188CE8;
+  border-color: #188CE8;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+
+  color: #FFFFFF;
 }
 
 
