@@ -111,6 +111,10 @@
   color: #757575;
 }
 
+.backdrop-form-label:focus-within > .backdrop-form-icon {
+  fill: var(--accent-color)
+}
+
 .backdrop-form-input {
   box-sizing: border-box;
   border: 1px solid rgba(33, 33, 33, 0.2);
