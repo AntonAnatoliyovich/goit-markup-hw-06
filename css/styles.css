@@ -212,7 +212,10 @@ fill: var(--accent-color);
 }
 
 .backdrop-form-checkbox-input:checked + .form-icon {
-  background-color: #2196f3;
+  border-radius: 4px;
+  background-size: cover;
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
   background-image: url(../image/icon\ check.svg);
 }
 
