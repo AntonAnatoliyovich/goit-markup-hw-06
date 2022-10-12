@@ -151,6 +151,8 @@
 }
 
 .backdrop-form-label-checkbox {
+  display: flex;
+  align-items: center;
   margin-bottom: 30px;
   margin-left: 40px;
 
@@ -173,6 +175,14 @@
 }
 
 .backdrop-form-input-checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
 
 .backdrop-form-input-checkbox:checked + .backdrop-form-span {
