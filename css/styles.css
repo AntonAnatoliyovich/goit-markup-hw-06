@@ -95,12 +95,17 @@
 .backdrop-form-label {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .backdrop-form-input {
 }
 
 .backdrop-form-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateY(100%);
 }
 
 .backdrop-form-textarea {
