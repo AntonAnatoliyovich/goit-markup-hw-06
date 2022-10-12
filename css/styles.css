@@ -78,6 +78,18 @@
 }
 
 .backdrop-form-title {
+  padding-top: 40px;
+  margin-bottom: 12px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  
+  color: #212121;
 }
 
 .backdrop-form-label {
