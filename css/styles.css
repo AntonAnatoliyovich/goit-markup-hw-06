@@ -93,9 +93,10 @@
 }
 
 .backdrop-form-label {
+  position: relative;
+
   display: flex;
   flex-direction: column;
-  position: relative;
 }
 
 .backdrop-form-input {
