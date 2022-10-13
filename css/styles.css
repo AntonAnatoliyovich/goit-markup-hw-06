@@ -112,11 +112,11 @@
   position: relative;
 }
 
-.backdrop-form-label:focus-within > .backdrop-form-icon {
+.backdrop-form-label-span:focus-within > .backdrop-form-icon {
   fill: var(--accent-color)
 }
 
-.backdrop-form-label:focus-within > .backdrop-form-input {
+.backdrop-form-label-span:focus-within > .backdrop-form-input {
   border-color: var(--accent-color);
   outline: none;
 }
@@ -136,7 +136,7 @@
 
   margin-bottom: 10px;
   margin-top: 4px;
-  padding-left: 35px;
+  padding-left: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
 
