@@ -99,8 +99,6 @@
 }
 
 .backdrop-form-label {
-  margin-bottom: 10px;
-
   display: flex;
   flex-direction: column;
 
@@ -116,6 +114,7 @@
 
 .backdrop-form-label-span {
   position: relative;
+  margin-bottom: 10px;
 }
 
 .backdrop-form-label-span:focus-within > .backdrop-form-icon {
@@ -161,6 +160,7 @@
 .backdrop-form-textarea {
   transition: var(--transition);
   padding: 10px;
+  margin-bottom: 20px;
 
   width: 448px;
 
