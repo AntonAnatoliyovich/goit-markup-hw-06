@@ -95,8 +95,6 @@
 }
 
 .backdrop-form-label {
-  position: relative;
-
   display: flex;
   flex-direction: column;
 
@@ -108,6 +106,10 @@
   font-style: normal;
 
   color: #757575;
+}
+
+.backdrop-form-label-span {
+  position: relative;
 }
 
 .backdrop-form-label:focus-within > .backdrop-form-icon {
@@ -147,8 +149,8 @@
   transition: var(--transition);
   position: absolute;
 
-  left: 5%;
-  top: 55%;
+  left: 12px;
+  top: 50%;
   transform: translate(-50%, -50%)
 }
 
